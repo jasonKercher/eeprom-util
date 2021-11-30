@@ -11,8 +11,8 @@ void setup()
 {
 	Serial.begin(9600);
 	const unsigned long val = 0;
-	for (unsigned i = 0; i < EEPROM.length() / sizeof(val); i += sizeof(val)) {
-		EEPROM.put(i * sizeof(val), val);
+	for (unsigned i = 0; i < EEPROM.length(); i += sizeof(val)) {
+		EEPROM.put(i, val);
 	}
 }
 
