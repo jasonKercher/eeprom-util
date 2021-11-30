@@ -1,0 +1,22 @@
+
+*.temp
+
+docs/.~lock.WorkFlow.odg#
+
+# compiled test binaries
+build/
+
+# platformio files
+.pio/
+
+# clangd files
+.clangd/
+.cache/
+
+# compiledb file
+compile_commands.json
+
+# gdb history files
+.gdb_history
+
+*.kate-swp
